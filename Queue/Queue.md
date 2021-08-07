@@ -16,6 +16,14 @@
 
         Check is the queue is empty before popping an element from the front. If the queue is not empty, remove the element pointed by the `front` pointer and increment the front pointer by 1. When the `front` and `rear` pointers are equal, it indicates that the queue is empty and hence we set both the pointers to 0.
 
+- Circular Queue :
+
+    1. It is a queue in which the last element is connected to the first element forming a circular structure.
+
+    2. In a normal queue, after enqueue-ing and dequeue-ing multiple times, the there are non-usable spaces before the `front` pointer. This problem is solved by circular queue.
+
+    3. 
+
  
 
         

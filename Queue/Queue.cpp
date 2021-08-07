@@ -65,7 +65,10 @@ int main(){
 
     Queue q;
     q.enqueue(3);
-    q.display();
+    q.enqueue(4);
+    q.enqueue(5);
+    q.dequeue();
+    q.enqueue(6);
     q.dequeue();
     q.display();
     return 0;
